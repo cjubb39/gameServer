@@ -42,7 +42,7 @@ public class GamePlayAgain extends JDialog implements ActionListener {
 		this.indicator = new Integer(42);
 
 		setTitle("Game Over!");
-		setBounds(100, 100, 341, 66);
+		setBounds(100, 100, 420, 100);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setLayout(new FlowLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
