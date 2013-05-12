@@ -2,7 +2,7 @@
 Chae Jubb // ecj2122
 
 ##A Brief Description
-This software is used to allow users to remote play games located on a central server.  This idea is implemented in a way that allows multiple users to play simultaneously.  An interface was written to standardize the gameplay in terms of interaction with the server.  Finally, a light GUI system was used for user interface with the server output.
+This software is used to allow users to remote play games located on a central server.  This idea is implemented in a way that allows multiple users to play simultaneously.  An interface was written to standardize the gameplay in terms of interaction with the server.  Finally, a light GUI system was used for user interface with the server output.  A game called "Fake" is included; this game simply repeats input back to the user.  It can be used as a simple test game.
 
 ##To use this software:
 **Server**: ./$java server.ServerMain
@@ -15,12 +15,12 @@ First choose game from list in Pop-up.  Then play game according to instructions
 
 The rules and specific instructions for each game are included in the README file in the games/\<name of game\> folder.
 
-##Notes on Client
+###Notes on Client
 *Required Packages*: client, sharedResources
 The text from the server appears in the large text box at the top of the interface.
 The user sends responses to the server by typing the in the small text box at the bottom of the screen and pressing the submit button or the enter key.
 
-##Notes on Server
+###Notes on Server
 *Required Packages*: server, sharedResources, games.*
 The server is hardcoded to quit after 50 connections.  A connection is counted as every time 
 
@@ -29,7 +29,7 @@ The server is hardcoded to quit after 50 connections.  A connection is counted a
 
 All computations are done on the server.  Only the text output is sent to the client.
 
-##Notes on COMS1007 Techniques Used
+###Notes on COMS1007 Techniques Used
 1. Interfaces:  A Game Interface was created in order to standardize the server's interaction with the game.  The interface requires a void play method that takes no arguments.
 Additionally, the constructor would ideally take arguments of a Scanner and PrintWriter, which are used to recieve and send information from the server, respectively (though this could not be specified by the interface).
 

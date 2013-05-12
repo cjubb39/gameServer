@@ -1,5 +1,6 @@
 doc/
 theory/
+userGuide/
 *.class
 .project
 .settings/

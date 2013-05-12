@@ -8,5 +8,8 @@ package sharedResources;
  * 
  */
 public enum GameType {
-	OTHELLO, POKER, BLACKJACK, FAKE
+	OTHELLO,
+  POKER,
+  BLACKJACK,
+  FAKE
 }
