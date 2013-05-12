@@ -1,0 +1,27 @@
+READ ME
+To play this game, follow on-screen prompts. If, in response to the 
+first message, the player inputs a capital Y instead of a lowercase,
+they then have the option to input their own cards to the hand 
+according to a series of on-screen instructions. This allows for 
+easier evaluation of the program.
+
+Each came "costs" one point. The computer will first give you a 
+hand of five cards, picked at random from the top of a deck, 
+and you have the option of replacing none, some, or all of them, 
+in order to get one of the following hands(each worth the number
+ of points given in the parentheses):
+1. Royal Flush (250) - A, 10, J, Q, and K, same suit 
+2. Straight Flush (50) - 5 cards with consecutive ranks of the same suit
+3. Four of a Kind (25) - 4 cards with the same rank
+4. Full House (6) - 3 cards with the same rank, and 1 pair
+5. Flush (5) - 3 cards with the same suit
+6. Straight (4) - 5 cards with consecutive ranks
+7. Three of a Kind (3) - 3 cards with the same rank
+8. Two Pairs (2) - 2 pairs of cards with 2 different ranks
+9. One pair (only w/ value above J, 1) - one pair of cards with the same rank.
+To replace a card, indicate the number you wish to replace, (shown next
+to the card). The card will then be replaced with the next card from the 
+deck. Your hand will then be scored, your updated score shown, and you 
+will be asked if you want to play again. When you end the game, total 
+games played and final score will be shown.
+
